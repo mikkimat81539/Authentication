@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="form_container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="form_group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="enter name" required autocomplete="off">
+            </div>
+
+            <div class="form_group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="enter password" required>
+                <img src="images/hide.png" id="hide">
+            </div>
+            <button type="submit" class="submit_btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/signup">Signup</a></p>
+    </div>
+</body>
+</html>
