@@ -1,5 +1,3 @@
-// Change input from password to text
-
 const hideImg = document.getElementById('hide')
 const passwordInput = document.getElementById('password')
 
